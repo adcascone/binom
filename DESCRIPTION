@@ -2,10 +2,16 @@ Package: binom
 Title: Binomial Confidence Intervals for Several Parameterizations
 Version: 1.1-2
 Date: 2026-07-06
-Author: Sundar Dorai-Raj <sundar.dorai-raj@pdf.com>, Arianna D. Cascone <ariannacascone4@gmail.com>
+Authors@R: c(person(given = "Sundar",
+                    family = "Dorai-Raj",
+                    role = "aut",
+                    email = "sdorairaj@gmail.com"),
+             person(given = c("Arianna", "D."),
+                    family = "Cascone",
+                    role = c("aut", "cre"),
+                    email = "ariannacascone4@gmail.com"))
 Description: Constructs confidence intervals on the probability of
         success in a binomial experiment via several parameterizations.
-Maintainer: Arianna D. Cascone <ariannacascone4@gmail.com>
 Suggests: lattice, polynom, tcltk, ggplot2
 License: GPL
 NeedsCompilation: yes
